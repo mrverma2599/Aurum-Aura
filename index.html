@@ -1,1 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aurum Aura | Luxury Jewellery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Lato&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Lato', sans-serif;
+      color: #222;
+      background-color: #fff;
+    }
+    header {
+      background-color: #000;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+    nav a {
+      color: white;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    .hero {
+      background: url('https://source.unsplash.com/1600x900/?luxury,jewelry') center/cover no-repeat;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      font-family: 'Playfair Display', serif;
+      background: rgba(0,0,0,0.5);
+      padding: 1rem;
+      border-radius: 12px;
+    }
+    .cta {
+      margin-top: 1rem;
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #d4af37;
+      color: white;
+      font-weight: bold;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+    .collections {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .collections h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .product {
+      border: 1px solid #eee;
+      border-radius: 12px;
+      overflow: hidden;
+      background-color: #fafafa;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+    .product h4 {
+      margin: 0.5rem;
+      font-size: 1.2rem;
+    }
+    .product p {
+      margin: 0 0 1rem;
+      font-size: 1rem;
+    }
+    footer {
+      background-color: #000;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Aurum Aura</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#collections">Collections</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h2>Jewellery With Purpose. Crafted For Legacy.</h2>
+      <a href="#collections" class="cta">Shop Now</a>
+    </div>
+  </section>
+
+  <section class="collections" id="collections">
+    <h3>Our Collections</h3>
+    <div class="grid">
+      <div class="product">
+        <img src="https://source.unsplash.com/400x400/?gold-necklace" alt="Necklace">
+        <h4>Golden Luxe Necklace</h4>
+        <p>₹25,999</p>
+      </div>
+      <div class="product">
+        <img src="https://source.unsplash.com/400x400/?diamond-ring" alt="Ring">
+        <h4>Diamond Whisper Ring</h4>
+        <p>₹15,499</p>
+      </div>
+      <div class="product">
+        <img src="https://source.unsplash.com/400x400/?silver-bracelet" alt="Bracelet">
+        <h4>Silver Twist Bracelet</h4>
+        <p>₹9,999</p>
+      </div>
+      <div class="product">
+        <img src="https://source.unsplash.com/400x400/?gold-earrings" alt="Earrings">
+        <h4>Celestial Gold Earrings</h4>
+        <p>₹12,799</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Aurum Aura. All Rights Reserved.</p>
+    <p>Luxury with a conscience — ethically sourced, exquisitely crafted.</p>
+  </footer>
+</body>
+</html>
 
